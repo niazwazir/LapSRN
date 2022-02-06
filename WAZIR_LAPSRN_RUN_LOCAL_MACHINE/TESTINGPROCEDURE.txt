@@ -1,9 +1,0 @@
-FIRST OF ALL UNZIP THE data folder
-1) TRAINING
-python main_lapsrn.py --cuda
-
-2) TESTING
-python eval.py --model checkpoint/lapsrn_model_epoch_90.pth --dataset Set5
-
-3) IMAGE SHOW
-python demo.py --model checkpoint/lapsrn_model_epoch_90.pth --image baby_GT --scale 4 --cuda
